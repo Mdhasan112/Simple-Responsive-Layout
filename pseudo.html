@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .color-container {
+        /* position: relative; */
+        background-color: gray;
+        width: 500px;
+        margin: auto;
+      }
+      .color-box1 {
+        background-color: blueviolet;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      }
+      .color-box2 {
+        position: sticky;
+        background-color: green;
+        height: 200px;
+        width: 200px;
+        top: 0;
+      }
+      .color-box3 {
+        background-color: yellow;
+        height: 200px;
+        width: 200px;
+      }
+      .dummy {
+        border: 1px solid yellowgreen;
+        height: 200px;
+        width: 300px;
+      }
+      .another-dummy {
+        order: 1px solid yellowgreen;
+        height: 200px;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="color-container">
+      <div class="color-box1"></div>
+      <div class="color-box2"></div>
+      <div class="color-box3"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+    </div>
+    <div class="another-dummy"></div>
+    <div class="another-dummy"></div>
+    <div class="another-dummy"></div>
+    <div class="another-dummy"></div>
+    <div class="another-dummy"></div>
+  </body>
+</html>
